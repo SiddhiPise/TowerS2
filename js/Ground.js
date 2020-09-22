@@ -10,7 +10,7 @@ class Ground{
     }
     display(){
         
-        fill(188,67,67);
+        fill("brown");
         rectMode(CENTER);
         rect(this.ground.position.x,this.ground.position.y,900,20);
     }
