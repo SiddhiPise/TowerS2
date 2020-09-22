@@ -61,7 +61,7 @@ function draw() {
   
   strokeWeight(2);
   stroke(15);
-  fill("skyblue");
+  fill("blue");
   block1.display();
   block2.display();
   block3.display();
@@ -75,14 +75,14 @@ function draw() {
   block10.display();
   block11.display();
   block12.display();
-  fill("turquoise");
+  fill("green");
   block13.display();
   block14.display();
   block15.display();
   fill("grey");
   block16.display();
  
-  fill("gold");
+  fill("yellow");
   imageMode(CENTER)
   image(polygon_img ,polygon.position.x,polygon.position.y,40,40);
 
