@@ -52,13 +52,13 @@ function setup() {
 
 }
 function draw() {
-  background(56,44,44); 
+  background("white"); 
  
   //Engine.update(engine);
   
   ground.display();
   stand1.display();
-  //stand2.display();
+  
   strokeWeight(2);
   stroke(15);
   fill("skyblue");
